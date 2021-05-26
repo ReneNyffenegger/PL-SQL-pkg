@@ -1,0 +1,3 @@
+[submodule "tim"]
+	path = tim
+	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-tim
