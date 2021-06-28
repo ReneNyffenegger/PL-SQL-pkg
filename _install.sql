@@ -28,3 +28,4 @@ to
 @ ses/_install
 @ tim/_install
 @ task/_install
+@ log/_install
