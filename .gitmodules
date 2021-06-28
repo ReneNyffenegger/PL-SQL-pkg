@@ -4,3 +4,6 @@
 [submodule "ses"]
 	path = ses
 	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-ses
+[submodule "task"]
+	path = task
+	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-task
