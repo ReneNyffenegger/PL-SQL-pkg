@@ -29,3 +29,6 @@ to
 @ tim/_install
 @ task/_install
 @ log/_install
+
+@ assert/spec
+@ assert/body
