@@ -26,3 +26,4 @@ to
    PLSQL_PKG_OWNER;
 
 @ ses/_install
+@ tim/_install
