@@ -13,3 +13,6 @@
 [submodule "assert"]
 	path = assert
 	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-assert
+[submodule "jsn"]
+	path = jsn
+	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-jsn

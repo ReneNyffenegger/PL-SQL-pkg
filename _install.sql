@@ -25,10 +25,25 @@ grant
 to
    PLSQL_PKG_OWNER;
 
+
+prompt ses
 @ ses/_install
+
+prompt tim
 @ tim/_install
+
+--
+-- jsn uses tim.iso_8601
+--
+prompt jsn
+@ jsn/_install
+
+prompt task
 @ task/_install
+
+prompt log
 @ log/_install
 
+prompt assert
 @ assert/spec
 @ assert/body
