@@ -21,6 +21,7 @@ grant
    create sequence,
    create session,
    create table,
+   create type,
    create view
 to
    PLSQL_PKG_OWNER;
@@ -47,3 +48,8 @@ prompt log
 prompt assert
 @ assert/spec
 @ assert/body
+
+@ txt/types
+@ txt/spec
+@ txt/body
+@ txt/_test/run

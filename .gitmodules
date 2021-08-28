@@ -16,3 +16,6 @@
 [submodule "jsn"]
 	path = jsn
 	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-jsn
+[submodule "txt"]
+	path = txt
+	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-txt
