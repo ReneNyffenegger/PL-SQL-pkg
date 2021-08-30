@@ -10,9 +10,16 @@ end;
 
 
 drop   user PLSQL_PKG_OWNER cascade;
+drop   user PLSQL_PKG_USER  cascade;
 
 create user PLSQL_PKG_OWNER
    identified by PLSQL_PKG_OWNER_PW
+   default    tablespace   data
+   quota      unlimited on data;
+
+
+create user PLSQL_PKG_USER
+   identified by PLSQL_PKG_USER_PW
    default    tablespace   data
    quota      unlimited on data;
 
@@ -26,6 +33,16 @@ grant
 to
    PLSQL_PKG_OWNER;
 
+--
+-- Test case for SQL_STMT
+--
+-- grant select on user_objects to PLSQL_PKG_OWNER;
+
+grant
+   create session,
+   create table
+to
+   PLSQL_PKG_USER;
 
 prompt ses
 @ ses/_install
@@ -53,3 +70,5 @@ prompt assert
 @ txt/spec
 @ txt/body
 @ txt/_test/run
+
+@ sql_stmt/_install

@@ -19,3 +19,6 @@
 [submodule "txt"]
 	path = txt
 	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-txt
+[submodule "sql_stmt"]
+	path = sql_stmt
+	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-sql_stmt
