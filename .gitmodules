@@ -22,3 +22,9 @@
 [submodule "sql_stmt"]
 	path = sql_stmt
 	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-sql_stmt
+[submodule "zipper"]
+	path = zipper
+	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-zipper
+[submodule "blob_wrapper"]
+	path = blob_wrapper
+	url = https://github.com/ReneNyffenegger/PL-SQL-pkg-blob_wrapper

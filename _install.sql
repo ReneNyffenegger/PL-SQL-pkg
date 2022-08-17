@@ -24,12 +24,14 @@ create user PLSQL_PKG_USER
    quota      unlimited on data;
 
 grant
-   create procedure,
-   create sequence,
-   create session,
-   create table,
-   create type,
-   create view
+   create     procedure,
+   create any directory,
+   drop   any directory,
+   create     sequence,
+   create     session,
+   create     table,
+   create     type,
+   create     view
 to
    PLSQL_PKG_OWNER;
 
@@ -72,5 +74,17 @@ prompt assert
 @ txt/_test/run
 
 @ sql_stmt/_install
+
+promp blob_wrapper
+@ blob_wrapper/spec.plsql
+@ blob_wrapper/body.plsql
+
+define test_dir=blob_wrapper\_test
+@ blob_wrapper/_test/all.sql
+
+promp zipper
+@ zipper/spec.plsql
+@ zipper/body.plsql
+@ zipper/test.plsql
 
 exit
