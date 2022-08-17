@@ -72,3 +72,5 @@ prompt assert
 @ txt/_test/run
 
 @ sql_stmt/_install
+
+exit
